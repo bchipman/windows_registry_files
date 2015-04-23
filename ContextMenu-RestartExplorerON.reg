@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\Restart Explorer]
+"Position"="Middle"
+"Icon"="C:\\Windows\\System32\\shell32.dll,238"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\Restart Explorer\Command]
+@="WScript C:\\Dropbox\\Texts\\.vbs\\_RestartExplorerCustom.vbs"

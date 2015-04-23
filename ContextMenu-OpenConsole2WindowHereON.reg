@@ -1,0 +1,35 @@
+Windows Registry Editor Version 5.00
+
+;---------------------------------------------------------------------------------------------------
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\console2]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\console2]
+
+[-HKEY_CLASSES_ROOT\Drive\shell\console2]
+
+;---------------------------------------------------------------------------------------------------
+[HKEY_CLASSES_ROOT\Directory\Background\shell\console2]
+@="Console2 Here"
+"NoWorkingDirectory"=""
+"Icon"="C:\\Dropbox\\.ProgramFiles\\Console2\\Console.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\console2\command]
+@="C:\\Dropbox\\.ProgramFiles\\Console2\\Console.exe -d \"%V%\""
+
+;---------------------------------------------------------------------------------------------------
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\console2]
+@="Console2 Here"
+"NoWorkingDirectory"=""
+"Icon"="C:\\Dropbox\\.ProgramFiles\\Console2\\Console.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\console2\command]
+@="C:\\Dropbox\\.ProgramFiles\\Console2\\Console.exe -d \"%V%\""
+
+;---------------------------------------------------------------------------------------------------
+[HKEY_CLASSES_ROOT\Drive\shell\console2]
+@="Console2 Here"
+"NoWorkingDirectory"=""
+"Icon"="C:\\Dropbox\\.ProgramFiles\\Console2\\Console.exe"
+
+[HKEY_CLASSES_ROOT\Drive\shell\console2\command]
+@="C:\\Dropbox\\.ProgramFiles\\Console2\\Console.exe -d \"%V%\""

@@ -1,0 +1,17 @@
+Windows Registry Editor Version 5.00
+
+;-------------------------------------------------------------------------------
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Hidden ON]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Hidden OFF]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Read-Only ON]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Read-Only OFF]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Super Hidden ON]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Super Hidden OFF]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Hidden ON]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Hidden OFF]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Read-Only ON]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Read-Only OFF]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Super Hidden ON]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Super Hidden OFF]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Super Hidden ON NONRECURSIVE]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Super Hidden OFF NONRECURSIVE]

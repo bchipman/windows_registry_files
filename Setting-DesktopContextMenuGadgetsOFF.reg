@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\DesktopBackground\Shell\Gadgets]
+"LegacyDisable"=""
+
+; may need to take ownership of key first
+; Also, probably better to just disable this windows feature via
+; dism /online /disable-feature /featurename:"WindowsGadgetPlatform"

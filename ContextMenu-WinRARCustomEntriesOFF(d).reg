@@ -1,0 +1,4 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Extract Here and Delete Archive]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Extract to ____ and Delete Archive]

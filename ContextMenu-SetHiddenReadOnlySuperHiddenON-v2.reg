@@ -1,0 +1,167 @@
+Windows Registry Editor Version 5.00
+
+;-------------------------------------------------------------------------------
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\MyAttrib]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribFile+H]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribFile-H]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribFile+R]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribFile-R]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribFile+S+H]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribFile-S-H]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\MyAttrib]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryNonrecursive+H]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryNonrecursive-H]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryNonrecursive+R]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryNonrecursive-R]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryNonrecursive+S+H]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryNonrecursive-S-H]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryRecursive+H]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryRecursive-H]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryRecursive+R]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryRecursive-R]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryRecursive+S+H]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryRecursive-S-H]
+
+;-------------------------------------------------------------------------------
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\MyAttrib]
+"MUIVerb"="Attrib"
+"SubCommands"="MyAttribFile+R; MyAttribFile-R; MyAttribFile+H; MyAttribFile-H; MyAttribFile+S+H; MyAttribFile-S-H"
+"Extended"=""
+"Icon"="C:\\Windows\\System32\\imageres.dll,142"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribFile+R]
+@="Read-Only           ON"
+"Icon"="C:\\Windows\\System32\\ActionCenterCPL.dll,1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribFile+R\command]
+@="attrib +R \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribFile-R]
+@="Read-Only           OFF"
+"Icon"="C:\\Windows\\System32\\ActionCenterCPL.dll,3"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribFile-R\command]
+@="attrib -R \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribFile+H]
+@="Hidden                 ON"
+"Icon"="C:\\Windows\\System32\\ActionCenterCPL.dll,1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribFile+H\command]
+@="attrib +H \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribFile-H]
+@="Hidden                 OFF"
+"Icon"="C:\\Windows\\System32\\ActionCenterCPL.dll,3"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribFile-H\command]
+@="attrib -H \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribFile+S+H]
+@="Super-Hidden     ON"
+"Icon"="C:\\Windows\\System32\\ActionCenterCPL.dll,1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribFile+S+H\command]
+@="attrib +S +H \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribFile-S-H]
+@="Super-Hidden     OFF"
+"Icon"="C:\\Windows\\System32\\ActionCenterCPL.dll,3"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribFile-S-H\command]
+@="attrib -S -H \"%1\""
+
+
+;------------------------------------------------------------------------------
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\MyAttrib]
+"MUIVerb"="Attrib"
+"SubCommands"="MyAttribDirectoryRecursive+R; MyAttribDirectoryRecursive-R; MyAttribDirectoryRecursive+H; MyAttribDirectoryRecursive-H; MyAttribDirectoryRecursive+S+H; MyAttribDirectoryRecursive-S-H; MyAttribDirectoryNonrecursive+R; MyAttribDirectoryNonrecursive-R; MyAttribDirectoryNonrecursive+H; MyAttribDirectoryNonrecursive-H; MyAttribDirectoryNonrecursive+S+H; MyAttribDirectoryNonrecursive-S-H"
+"Extended"=""
+"Icon"="C:\\Windows\\System32\\imageres.dll,142"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryRecursive+R]
+@="Read-Only           ON (Recursive)"
+"Icon"="C:\\Windows\\System32\\ActionCenterCPL.dll,1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryRecursive+R\command]
+@="attrib +R \"%1\\*.*\" /S /D"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryRecursive-R]
+@="Read-Only           OFF (Recursive)"
+"Icon"="C:\\Windows\\System32\\ActionCenterCPL.dll,3"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryRecursive-R\command]
+@="attrib -R \"%1\\*.*\" /S /D"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryRecursive+H]
+@="Hidden                 ON (Recursive)"
+"Icon"="C:\\Windows\\System32\\ActionCenterCPL.dll,1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryRecursive+H\command]
+@="C:\\Dropbox\\Texts\\.bat\\ContextMenu-SetHiddenDirectoryON.bat \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryRecursive-H]
+@="Hidden                 OFF (Recursive)"
+"Icon"="C:\\Windows\\System32\\ActionCenterCPL.dll,3"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryRecursive-H\command]
+@="C:\\Dropbox\\Texts\\.bat\\ContextMenu-SetHiddenDirectoryOFF.bat \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryRecursive+S+H]
+@="Super-Hidden     ON (Recursive)"
+"Icon"="C:\\Windows\\System32\\ActionCenterCPL.dll,1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryRecursive+S+H\command]
+@="C:\\Dropbox\\Texts\\.bat\\ContextMenu-SetSuperHiddenDirectoryON.bat \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryRecursive-S-H]
+@="Super-Hidden     OFF (Recursive)"
+"Icon"="C:\\Windows\\System32\\ActionCenterCPL.dll,3"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryRecursive-S-H\command]
+@="C:\\Dropbox\\Texts\\.bat\\ContextMenu-SetSuperHiddenDirectoryOFF.bat \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryNonrecursive+R]
+@="Read-Only           ON (Non-Recursive)"
+"Icon"="C:\\Windows\\System32\\ActionCenterCPL.dll,1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryNonrecursive+R\command]
+@="attrib +R \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryNonrecursive-R]
+@="Read-Only           OFF (Non-Recursive)"
+"Icon"="C:\\Windows\\System32\\ActionCenterCPL.dll,3"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryNonrecursive-R\command]
+@="attrib -R \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryNonrecursive+H]
+@="Hidden                 ON (Non-Recursive)"
+"Icon"="C:\\Windows\\System32\\ActionCenterCPL.dll,1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryNonrecursive+H\command]
+@="attrib +H \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryNonrecursive-H]
+@="Hidden                 OFF (Non-Recursive)"
+"Icon"="C:\\Windows\\System32\\ActionCenterCPL.dll,3"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryNonrecursive-H\command]
+@="attrib -H \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryNonrecursive+S+H]
+@="Super-Hidden     ON (Non-Recursive)"
+"Icon"="C:\\Windows\\System32\\ActionCenterCPL.dll,1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryNonrecursive+S+H\command]
+@="attrib +S +H \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryNonrecursive-S-H]
+@="Super-Hidden     OFF (Non-Recursive)"
+"Icon"="C:\\Windows\\System32\\ActionCenterCPL.dll,3"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyAttribDirectoryNonrecursive-S-H\command]
+@="attrib -S -H \"%1\""

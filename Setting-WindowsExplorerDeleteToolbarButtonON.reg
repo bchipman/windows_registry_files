@@ -1,0 +1,61 @@
+Windows Registry Editor Version 5.00
+
+; General Items (Generic) folder templates
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderTypes\{5c4f28b5-f869-4e84-8e60-f11db97c5cc7}\TasksItemsSelected\0]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderTypes\{5c4f28b5-f869-4e84-8e60-f11db97c5cc7}\TasksItemsSelected\0\Delete]
+
+
+; Videos folder templates
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderTypes\{5fa96407-7e77-483c-ac93-691d05850de8}\TasksItemsSelected\0]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderTypes\{5fa96407-7e77-483c-ac93-691d05850de8}\TasksItemsSelected\0\Delete]
+
+
+; Documents folder templates
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderTypes\{7d49d726-3c21-4f05-99aa-fdc2c9474656}\TasksItemsSelected\0]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderTypes\{7d49d726-3c21-4f05-99aa-fdc2c9474656}\TasksItemsSelected\0\Delete]
+
+
+; Music folder templates
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderTypes\{94d6ddcc-4a68-4175-a374-bd584a510b78}\TasksItemsSelected\0]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderTypes\{94d6ddcc-4a68-4175-a374-bd584a510b78}\TasksItemsSelected\0\Delete]
+
+
+; Pictures folder templates
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderTypes\{b3690e58-e961-423b-b687-386ebfd83239}\TasksItemsSelected\0]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderTypes\{b3690e58-e961-423b-b687-386ebfd83239}\TasksItemsSelected\0\Delete]
+
+;-----------------------------------------------------------------------------------------------------------------------------------------------
+
+; General (Generic) library folder
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderTypes\{5f4eab9a-6833-4f61-899d-31cf46979d49}\TasksItemsSelected\0]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderTypes\{5f4eab9a-6833-4f61-899d-31cf46979d49}\TasksItemsSelected\0\Delete]
+
+
+; Videos library folder
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderTypes\{292108be-88ab-4f33-9a26-7748e62e37ad}\TasksItemsSelected\0]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderTypes\{292108be-88ab-4f33-9a26-7748e62e37ad}\TasksItemsSelected\0\Delete]
+
+
+; Documents library folder
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderTypes\{3f98a740-839c-4af7-8c36-5badfb33d5fd}\TasksItemsSelected\0]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderTypes\{3f98a740-839c-4af7-8c36-5badfb33d5fd}\TasksItemsSelected\0\Delete]
+
+
+; Music library folder
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderTypes\{978e0ed7-92d6-4cec-9b59-3135b9c49ccf}\TasksItemsSelected\0]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderTypes\{978e0ed7-92d6-4cec-9b59-3135b9c49ccf}\TasksItemsSelected\0\Delete]
+
+
+; Pictures library folder
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderTypes\{c1f8339f-f312-4c97-b1c6-ecdf5910c5c0}\TasksItemsSelected\0]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\FolderTypes\{c1f8339f-f312-4c97-b1c6-ecdf5910c5c0}\TasksItemsSelected\0\Delete]

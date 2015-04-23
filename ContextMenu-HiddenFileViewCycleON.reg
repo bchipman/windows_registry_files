@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Show/Hide Hidden Files]
+"Extended"=""
+"Icon"="C:\\Windows\\System32\\mmcndmgr.dll,54"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Show/Hide Hidden Files\command]
+@="WScript C:\\Dropbox\\Texts\\.vbs\\ContextMenuCycleThroughHiddenFileSettings.vbs"
+
+
+[HKEY_CLASSES_ROOT\LibraryFolder\Background\shell\Show/Hide Hidden Files]
+"Extended"=""
+"Icon"="C:\\Windows\\System32\\mmcndmgr.dll,54"
+
+[HKEY_CLASSES_ROOT\LibraryFolder\Background\shell\Show/Hide Hidden Files\command]
+@="WScript C:\\Dropbox\\Texts\\.vbs\\ContextMenuCycleThroughHiddenFileSettings.vbs"

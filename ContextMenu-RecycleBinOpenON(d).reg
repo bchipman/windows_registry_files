@@ -1,0 +1,21 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\DesktopBackground\Shell\Recycle Bin]
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\Recycle Bin]
+
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Recycle Bin]
+"Icon"="shell32.dll,-254"
+"Position"="Bottom"
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\Recycle Bin\command]
+@="C:\\Windows\\explorer.exe /e,::{645FF040-5081-101B-9F08-00AA002F954E}"
+
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Recycle Bin]
+"Icon"="shell32.dll,-254"
+"Position"="Bottom"
+"Extended"=""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Recycle Bin\command]
+@="C:\\Windows\\explorer.exe /e,::{645FF040-5081-101B-9F08-00AA002F954E}"

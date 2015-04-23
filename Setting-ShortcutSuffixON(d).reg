@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; Created by: Shawn Brink
+; http://www.sevenforums.com
+; Tutorial: http://www.sevenforums.com/tutorials/804-shortcut-extension-remove-restore.html
+
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer]
+"link"=hex:1e,00,00,00

@@ -1,0 +1,117 @@
+Windows Registry Editor Version 5.00
+
+;-------------------------------------------------------------------------------
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Hidden ON]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Hidden OFF]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Read-Only ON]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Read-Only OFF]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Super Hidden ON]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Super Hidden OFF]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Hidden ON]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Hidden OFF]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Read-Only ON]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Read-Only OFF]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Super Hidden ON]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Super Hidden OFF]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Super Hidden ON NONRECURSIVE]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Super Hidden OFF NONRECURSIVE]
+
+;-------------------------------------------------------------------------------
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Hidden ON]
+"Extended"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Hidden ON\command]
+@="attrib +H \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Hidden OFF]
+"Extended"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Hidden OFF\command]
+@="attrib -H \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Read-Only ON]
+"Extended"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Read-Only ON\command]
+@="attrib +r \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Read-Only OFF]
+"Extended"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Read-Only OFF\command]
+@="attrib -r \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Super Hidden ON]
+"Extended"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Super Hidden ON\command]
+@="attrib +S +H \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Super Hidden OFF]
+"Extended"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\*\shell\Super Hidden OFF\command]
+@="attrib -S -H \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Hidden ON]
+"Extended"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Hidden ON\command]
+@="C:\\Dropbox\\Texts\\.bat\\ContextMenu-SetHiddenDirectoryON.bat \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Hidden OFF]
+"Extended"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Hidden OFF\command]
+@="C:\\Dropbox\\Texts\\.bat\\ContextMenu-SetHiddenDirectoryOFF.bat \"%1\""
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Read-Only ON]
+"Extended"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Read-Only ON\command]
+@="attrib +r \"%1\\*.*\" /S /D"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Read-Only OFF]
+"Extended"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Read-Only OFF\command]
+@="attrib -r \"%1\\*.*\" /S /D"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Super Hidden ON]
+"Extended"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Super Hidden ON\command]
+@="C:\\Dropbox\\Texts\\.bat\\ContextMenu-SetSuperHiddenDirectoryON.bat \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Super Hidden OFF]
+"Extended"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Super Hidden OFF\command]
+@="C:\\Dropbox\\Texts\\.bat\\ContextMenu-SetSuperHiddenDirectoryOFF.bat \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Super Hidden ON NONRECURSIVE]
+"Extended"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Super Hidden ON NONRECURSIVE\command]
+@="attrib +s +h \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Super Hidden OFF NONRECURSIVE]
+"Extended"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\Super Hidden OFF NONRECURSIVE\command]
+@="attrib -s -h \"%1\""

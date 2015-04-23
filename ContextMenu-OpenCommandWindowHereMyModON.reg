@@ -1,0 +1,36 @@
+Windows Registry Editor Version 5.00
+
+;---------------------------------------------------------------------------------------------------
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\cmd]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\cmd]
+
+[-HKEY_CLASSES_ROOT\Drive\shell\cmd]
+
+;---------------------------------------------------------------------------------------------------
+[HKEY_CLASSES_ROOT\Directory\Background\shell\cmd]
+@="Command Here"
+"NoWorkingDirectory"=""
+"Icon"="C:\\Windows\\System32\\cmd.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\cmd\command]
+@="cmd.exe /f:on /s /k pushd \"%V\"\""
+
+;---------------------------------------------------------------------------------------------------
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\cmd]
+@="Command Here"
+"NoWorkingDirectory"=""
+"Icon"="C:\\Windows\\System32\\cmd.exe"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\shell\cmd\command]
+@="cmd.exe /f:on /s /k pushd \"%V\"\""
+
+;---------------------------------------------------------------------------------------------------
+[HKEY_CLASSES_ROOT\Drive\shell\cmd]
+@="Command Here"
+"NoWorkingDirectory"=""
+"Icon"="C:\\Windows\\System32\\cmd.exe"
+
+
+[HKEY_CLASSES_ROOT\Drive\shell\cmd\command]
+@="cmd.exe /f:on /s /k pushd \"%V\"\""

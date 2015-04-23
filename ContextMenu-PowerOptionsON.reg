@@ -1,0 +1,36 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\MyPower]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shell\MyPower]
+"MUIVerb"="Power"
+"SubCommands"="MyPower-ShutDown; MyPower-Restart; MyPower-Hibernate"
+"Position"="Bottom"
+"Extended"=""
+"Icon"="C:\\Windows\\System32\\shell32.dll,215"
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyPower-ShutDown]
+@="Shut Down Computer"
+"Icon"="C:\\Windows\\System32\\shell32.dll,215"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyPower-ShutDown\Command]
+@="shutdown.exe /s /t 00"
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyPower-Restart]
+@="Restart Computer"
+"Icon"="C:\\Windows\\system32\\SyncCenter.dll,44"
+; "Icon"="C:\\Windows\\System32\\powrprof.dll,1"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyPower-Restart\Command]
+@="shutdown.exe /r /t 00"
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyPower-Hibernate]
+@="Hibernate Computer"
+"Icon"="C:\\Windows\\System32\\powrprof.dll,2"
+; "Icon"="C:\\Windows\\System32\\ieframe.dll,29"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\MyPower-Hibernate\Command]
+@="shutdown.exe /h"

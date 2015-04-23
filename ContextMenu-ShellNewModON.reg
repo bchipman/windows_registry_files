@@ -1,0 +1,20 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\.accdb\Access.Application.15\ShellNew]
+
+[-HKEY_CLASSES_ROOT\.bmp\ShellNew]
+
+[-HKEY_CLASSES_ROOT\.contact\ShellNew]
+
+[-HKEY_CLASSES_ROOT\.jnt\jntfile\ShellNew]
+
+[-HKEY_CLASSES_ROOT\.library-ms\ShellNew]
+
+[-HKEY_CLASSES_ROOT\.opd\ShellNew]
+
+[-HKEY_CLASSES_ROOT\.pub\Publisher.Document.15\ShellNew]
+
+[-HKEY_CLASSES_ROOT\Briefcase\ShellNew]
+
+[HKEY_CLASSES_ROOT\.py\ShellNew]
+"NullFile"=""

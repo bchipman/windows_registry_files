@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\ChromeHTML\DefaultIcon]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\ChromeHTML\DefaultIcon]
+@="C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe,0"

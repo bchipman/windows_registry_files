@@ -1,0 +1,195 @@
+Windows Registry Editor Version 5.00
+
+; MAKE SURE TO CHECK THE NUMBERS FOR THE HKEY_USERS ENTRY (LAST DEL ENTRY) - IT WILL ALMOST CERTAINLY BE DIFFERENT!!
+
+[-HKEY_CLASSES_ROOT\Python.CompiledFile]
+
+[-HKEY_CLASSES_ROOT\Python.File]
+
+[-HKEY_CLASSES_ROOT\Python.NoConFile]
+
+[-HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.py]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.CompiledFile]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.File]
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.NoConFile]
+
+; DESKTOP
+; [-HKEY_USERS\S-1-5-21-2527890619-3748747627-2723804121-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.py]
+
+; LAPTOP
+[-HKEY_USERS\S-1-5-21-20177339-258757904-1922993020-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.py]
+
+; ---------------------------------------------------------------------------------------------------
+
+[HKEY_CLASSES_ROOT\Python.CompiledFile]
+@="Compiled Python File"
+
+[HKEY_CLASSES_ROOT\Python.CompiledFile\DefaultIcon]
+@="C:\\Program Files (x86)\\Python34\\DLLs\\pyc.ico"
+
+[HKEY_CLASSES_ROOT\Python.CompiledFile\shell]
+
+[HKEY_CLASSES_ROOT\Python.CompiledFile\shell\open]
+
+[HKEY_CLASSES_ROOT\Python.CompiledFile\shell\open\command]
+@="\"C:\\Windows\\py.exe\" \"%1\" %*"
+
+[HKEY_CLASSES_ROOT\Python.CompiledFile\shellex]
+
+[HKEY_CLASSES_ROOT\Python.CompiledFile\shellex\DropHandler]
+@="{60254CA5-953B-11CF-8C96-00AA00B8708C}"
+
+[HKEY_CLASSES_ROOT\Python.File]
+@="Python File"
+
+[HKEY_CLASSES_ROOT\Python.File\DefaultIcon]
+@="C:\\Program Files (x86)\\Python34\\DLLs\\py.ico"
+
+[HKEY_CLASSES_ROOT\Python.File\shell]
+
+[HKEY_CLASSES_ROOT\Python.File\shell\Edit with IDLE]
+"LegacyDisable"=""
+
+[HKEY_CLASSES_ROOT\Python.File\shell\Edit with IDLE\command]
+@="\"C:\\Program Files (x86)\\Python34\\pythonw.exe\" \"C:\\Program Files (x86)\\Python34\\Lib\\idlelib\\idle.pyw\" -e \"%1\""
+
+[HKEY_CLASSES_ROOT\Python.File\shell\open]
+
+[HKEY_CLASSES_ROOT\Python.File\shell\open\command]
+@="\"C:\\Windows\\py.exe\" \"%1\" %*"
+
+[HKEY_CLASSES_ROOT\Python.File\shellex]
+
+[HKEY_CLASSES_ROOT\Python.File\shellex\DropHandler]
+@="{60254CA5-953B-11CF-8C96-00AA00B8708C}"
+
+[HKEY_CLASSES_ROOT\Python.NoConFile]
+@="Python File (no console)"
+
+[HKEY_CLASSES_ROOT\Python.NoConFile\DefaultIcon]
+@="C:\\Program Files (x86)\\Python34\\DLLs\\py.ico"
+
+[HKEY_CLASSES_ROOT\Python.NoConFile\shell]
+
+[HKEY_CLASSES_ROOT\Python.NoConFile\shell\Edit with IDLE]
+"LegacyDisable"=""
+
+[HKEY_CLASSES_ROOT\Python.NoConFile\shell\Edit with IDLE\command]
+@="\"C:\\Program Files (x86)\\Python34\\pythonw.exe\" \"C:\\Program Files (x86)\\Python34\\Lib\\idlelib\\idle.pyw\" -e \"%1\""
+
+[HKEY_CLASSES_ROOT\Python.NoConFile\shell\open]
+
+[HKEY_CLASSES_ROOT\Python.NoConFile\shell\open\command]
+@="\"C:\\Windows\\pyw.exe\" \"%1\" %*"
+
+[HKEY_CLASSES_ROOT\Python.NoConFile\shellex]
+
+[HKEY_CLASSES_ROOT\Python.NoConFile\shellex\DropHandler]
+@="{60254CA5-953B-11CF-8C96-00AA00B8708C}"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.py]
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.py\OpenWithList]
+"a"="py.exe"
+"MRUList"="a"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.py\OpenWithProgids]
+"Python.File"=hex(0):
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.py\UserChoice]
+"Progid"="Python.File"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.CompiledFile]
+@="Compiled Python File"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.CompiledFile\DefaultIcon]
+@="C:\\Program Files (x86)\\Python34\\DLLs\\pyc.ico"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.CompiledFile\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.CompiledFile\shell\open]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.CompiledFile\shell\open\command]
+@="\"C:\\Windows\\py.exe\" \"%1\" %*"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.CompiledFile\shellex]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.CompiledFile\shellex\DropHandler]
+@="{60254CA5-953B-11CF-8C96-00AA00B8708C}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.File]
+@="Python File"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.File\DefaultIcon]
+@="C:\\Program Files (x86)\\Python34\\DLLs\\py.ico"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.File\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.File\shell\Edit with IDLE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.File\shell\Edit with IDLE\command]
+@="\"C:\\Program Files (x86)\\Python34\\pythonw.exe\" \"C:\\Program Files (x86)\\Python34\\Lib\\idlelib\\idle.pyw\" -e \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.File\shell\open]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.File\shell\open\command]
+@="\"C:\\Windows\\py.exe\" \"%1\" %*"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.File\shellex]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.File\shellex\DropHandler]
+@="{60254CA5-953B-11CF-8C96-00AA00B8708C}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.NoConFile]
+@="Python File (no console)"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.NoConFile\DefaultIcon]
+@="C:\\Program Files (x86)\\Python34\\DLLs\\py.ico"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.NoConFile\shell]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.NoConFile\shell\Edit with IDLE]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.NoConFile\shell\Edit with IDLE\command]
+@="\"C:\\Program Files (x86)\\Python34\\pythonw.exe\" \"C:\\Program Files (x86)\\Python34\\Lib\\idlelib\\idle.pyw\" -e \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.NoConFile\shell\open]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.NoConFile\shell\open\command]
+@="\"C:\\Windows\\pyw.exe\" \"%1\" %*"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.NoConFile\shellex]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Python.NoConFile\shellex\DropHandler]
+@="{60254CA5-953B-11CF-8C96-00AA00B8708C}"
+
+
+; DESKTOP
+; [HKEY_USERS\S-1-5-21-2527890619-3748747627-2723804121-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.py]
+
+; [HKEY_USERS\S-1-5-21-2527890619-3748747627-2723804121-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.py\OpenWithList]
+; "a"="py.exe"
+; "MRUList"="a"
+
+; [HKEY_USERS\S-1-5-21-2527890619-3748747627-2723804121-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.py\OpenWithProgids]
+; "Python.File"=hex(0):
+
+; [HKEY_USERS\S-1-5-21-2527890619-3748747627-2723804121-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.py\UserChoice]
+; "Progid"="Python.File"
+
+
+; LAPTOP
+[HKEY_USERS\S-1-5-21-20177339-258757904-1922993020-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.py]
+
+[HKEY_USERS\S-1-5-21-20177339-258757904-1922993020-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.py\OpenWithList]
+"a"="py.exe"
+"MRUList"="a"
+
+[HKEY_USERS\S-1-5-21-20177339-258757904-1922993020-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.py\OpenWithProgids]
+"Python.File"=hex(0):
+
+[HKEY_USERS\S-1-5-21-20177339-258757904-1922993020-1000\Software\Microsoft\Windows\CurrentVersion\Explorer\FileExts\.py\UserChoice]
+"Progid"="Python.File"

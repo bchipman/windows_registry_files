@@ -1,0 +1,22 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\Directory\Background\shell\Powershell]
+[-HKEY_CLASSES_ROOT\Directory\shell\Powershell]
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Powershell]
+@="&Powershell Here"
+"Icon"="C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\powershell.exe"
+"Position"="Middle"
+"Extended"=""
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Powershell\command]
+@="C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\powershell.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Powershell]
+@="&Powershell Here"
+"Icon"="C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\powershell.exe"
+"Position"="Middle"
+"Extended"=""
+
+[HKEY_CLASSES_ROOT\Directory\shell\Powershell\command]
+@="C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\powershell.exe"

@@ -1,0 +1,21 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\igfxcui]
+@="{3AB1675A-CCFF-11D2-8B20-00A0C93CB1F4}"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\igfxDTCM]
+@="{9B5F5829-A529-4B12-814A-E81BCB8D93FC}"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shellex\ContextMenuHandlers\igfxOSP]
+@="{FA507C3F-30C6-4DCA-9EE5-2656072EEC14}"
+
+;--------------------------------------------------------------------------------------------------
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shellex\ContextMenuHandlers\igfxcui]
+@="{3AB1675A-CCFF-11D2-8B20-00A0C93CB1F4}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shellex\ContextMenuHandlers\igfxDTCM]
+@="{9B5F5829-A529-4B12-814A-E81BCB8D93FC}"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\Directory\Background\shellex\ContextMenuHandlers\igfxOSP]
+@="{FA507C3F-30C6-4DCA-9EE5-2656072EEC14}"

@@ -1,0 +1,42 @@
+Windows Registry Editor Version 5.00
+
+[-HKEY_CLASSES_ROOT\DesktopBackground\Shell\MyDisplayFusion]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\DFSettings]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\DFMonitors]
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\DFWallpaper]
+
+
+[HKEY_CLASSES_ROOT\DesktopBackground\Shell\MyDisplayFusion]
+"MUIVerb"="DisplayFusion"
+"SubCommands"="DFSettings;DFWallpaper;DFMonitors"
+"icon"="\"C:\\Program Files (x86)\\DisplayFusion\\DisplayFusion.exe\""
+
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\DFSettings]
+@="Settings"
+"icon"="\"C:\\Program Files (x86)\\DisplayFusion\\DisplayFusion.exe\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\DFSettings\command]
+@="\"C:\\Program Files (x86)\\DisplayFusion\\DisplayFusionCommand.exe\" -windowsettings"
+
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\DFWallpaper]
+@="Desktop Wallpaper"
+"icon"="\"C:\\Program Files (x86)\\DisplayFusion\\DisplayFusion.exe\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\DFWallpaper\command]
+@="\"C:\\Program Files (x86)\\DisplayFusion\\DisplayFusionCommand.exe\" -windowwallpaper"
+
+
+
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\DFMonitors]
+@="Monitor Configuration"
+"icon"="\"C:\\Program Files (x86)\\DisplayFusion\\DisplayFusion.exe\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\CommandStore\shell\DFMonitors\command]
+@="\"C:\\Program Files (x86)\\DisplayFusion\\DisplayFusionCommand.exe\" -windowmonitorconfig"

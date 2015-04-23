@@ -1,0 +1,5 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run]
+"ShadowPlay"="C:\\Windows\\system32\\rundll32.exe"
+; "ShadowPlay"="C:\\Windows\\system32\\rundll32.exe C:\\Windows\\system32\\nvspcap64.dll,ShadowPlayOnSystemStart"

@@ -1,0 +1,9 @@
+Windows Registry Editor Version 5.00
+
+; Created by: Shawn Brink
+; http://www.sevenforums.com
+; Tutorial:  http://www.sevenforums.com/tutorials/243272-last-access-timestamp-enable-disable-windows.html
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\FileSystem]
+"NtfsDisableLastAccessUpdate"=dword:00000000
